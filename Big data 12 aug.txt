@@ -1,0 +1,36 @@
+x=2
+print(x)
+y=5
+mt <- mtcars
+View(mt)
+?mtcars
+mt$cyl
+mt[1:5,mt$cyl]
+mt[1:5,"cyl"]
+plot(mt$disp,mt$mpg)
+head(mt)
+tail(mt)
+nrow(mt)
+ncol(mt)
+installed.packages()
+install.packages("ggplot2");
+library(ggplot2)
+ggplot2(mt$disp,mt$mpg)
+getwd()
+setwd("D:/Rlab")
+getwd()
+str(mt)
+str(ls)
+x=1:200
+print(x)
+y=x*5
+plot(x,y)
+z=cos(x)
+plot(z,x)
+trees
+summary(trees)
+plot(trees, col="red", pch=16, main="Scatter plot between the variables of tree")
+plot(trees, col="red", pch=11, main="Scatter plot between the variables of tree")
+plot(trees, col="red", pch=25, main="Scatter plot between the variables of tree")
+plot(trees, col="red", pch=0, main="Scatter plot between the variables of tree")
+  
